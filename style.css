@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height:100vh;
+    overflow: hidden;
+    font-family: cursive;
+    background:salmon;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background:lightgreen;
+    width:500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding:20px;
+}
+.input{
+    width:60%;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+.submit{
+    padding:6px;
+    width:20%;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-left:5px;
+    font-family: cursive;
+}
+.submit:hover{
+    cursor:pointer;
+    background:green;
+    color:white;
+    font-family: cursive;
+}
+
+.danger{
+    color:red;
+}
+.success{
+    color:green;
+}
